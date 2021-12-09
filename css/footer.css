@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 134px;
+}
+
+.footer__container-hight {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+  .footer__container-menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+.footer__container-middle {
+  margin-top: 93px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__hr {
+  margin-top: 40px;
+}
+
+.footer__container-bottom {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,113 @@
+.header__container-hight {
+  margin-bottom: 41px;
+
+  display: flex;
+  justify-content:space-between
+}
+  .header__container-logo {
+    margin-right: 668.39px;
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .header__container-img {
+      margin-right: 14.67px;
+      max-width: 42,33px; 
+      max-height: 44px;
+
+      display: flex;
+    }
+
+    .header__logo-wrap {
+      max-width: 152px;
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+      .header__logo-text {
+        padding-top: 3.11px;
+        margin-bottom: 7.6px;
+      }
+
+      .header__subtittle {
+        font-family: Nunito;
+        font-size: 12px;
+        line-height: 16px;
+        color: #343434;
+        ;
+      }
+  .header__container-telephone {
+    display: flex;
+    flex-direction: column;
+  }
+    .header__telephone {
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .header__text {
+      font-family: Nunito;
+      font-size: 15px;
+      line-height: 20px;
+      color: #999999;
+    }
+
+
+.header__container-bottom {
+  margin-bottom: 38px;
+
+  display: flex;
+  justify-content:space-between;
+}
+  .header__nav-list {
+    margin-right: 489px;
+
+    display: flex;
+    flex-direction: row;
+  }
+    .header__nav-item {
+      padding-top: 9px;
+
+      font-family: Nunito;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+    }
+
+    .header__nav-item_margin:not(:last-child) {
+      margin-right: 24px;
+    }
+
+    .header__nav-item_hover{
+      color: #F96900;
+    }
+
+  .header__container-basket {
+    width: 104px;
+    height: 40px;
+
+    background-color: #F96900;
+    border-radius: 1000px;
+  }
+    .header__nav-btn {
+      padding-top: 9px;
+
+      display: block;
+      
+      text-decoration: none;
+      text-align: center;
+      line-height: 22px;
+
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 16px;
+
+      color: #FFFFFF;   
+    }
+
+
