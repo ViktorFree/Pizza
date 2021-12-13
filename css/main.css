@@ -1,3 +1,7 @@
+main {
+  margin-bottom: 134px;
+}
+
 .slider {
   margin-bottom: 38px;
 }
@@ -140,9 +144,6 @@
           .main__btn {
             min-width: 120px;
             min-height: 40px;
-              
-            display: block;
-            
 
             font-family: Nunito;
             font-weight: 600;
@@ -157,6 +158,13 @@
             
             color: #D15700;
             background-color: #FFF0E6;
+
+            cursor: pointer;
+          }
+
+          .pizza__btn-select {
+            background-color: #F96900;
+            color: #FFFFFF;
           }
 
 .combo__list {
@@ -257,6 +265,77 @@
 
 .desserts__list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+  .desserts__item {
+    margin-bottom: 60px;
+
+    max-width: 250px;
+    min-height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .desserts__item_margin:not(:nth-child(4n)) {
+    margin-right: 20px;
+  }
+
+    .desserts__img {
+      margin-bottom: 5px;
+      padding-right: 15px;
+      padding-left: 15px;
+
+      width: 220px;
+      height: 220px;
+    }
+
+.drinkables__list {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+  .drinkables__item {
+    margin-bottom: 60px;
+
+    max-width: 250px;
+    min-height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .drinkables__item_margin:not(:nth-child(4n)) {
+    margin-right: 20px;
+  }
+
+    .drinkables__img {
+      margin-bottom: 5px;
+      padding-right: 15px;
+      padding-left: 15px;
+
+      width: 220px;
+      height: 220px;
+    }
+
+    .main__btn_add-basket {
+      display: flex;
+      justify-content: space-between;
+
+      align-items: center;
+      background-color: #F3F3F7;
+      color: #73798C;
+    }
+
+      .drinkables__btn-position_left {
+        padding-left: 16px;
+      }
+
+      .drinkables__btn-position_right {
+        padding-right: 16px;
+      }
+              

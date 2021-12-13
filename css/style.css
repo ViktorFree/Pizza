@@ -1,5 +1,7 @@
 body {
 	box-sizing: border-box;
+
+	font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -9,6 +11,21 @@ img {
 
 ul {
 	list-style-type: none
+}
+
+a:visited {
+    text-decoration: none; 
+    decoration: none; 
+}
+
+main ul li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer div a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .container {
@@ -27,6 +44,45 @@ ul {
 	width: 1px !important; 
 	overflow: hidden;
 }
+
+
+
+@font-face {
+	font-family: 'Nunito';
+	src: url(../fonts/nunito/Nunitoitalic.woff) format('woff'),
+				url(../fonts/nunito/Nunitoitalic.woff2)	format('woff2');
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url(../fonts/nunito/Nunitoregular.woff) format('woff'),
+				url(../fonts/nunito/Nunitoregular.woff2)	format('woff2');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+/*       Это шрифт подключён */
+@font-face {
+	font-family: 'Nunito';
+	src: url(../fonts/nunito/Nunitosemibold.woff) format('woff'),
+				url(../fonts/nunito/Nunitosemibold.woff2)	format('woff2');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'Nunito';
+	src: url(../fonts/nunito/Nunitosemibolditalic.woff) format('woff'),
+				url(../fonts/nunito/Nunitosemibolditalic.woff2)	format('woff2'); 
+	font-display: swap;
+	font-weight: 600;
+	font-style: italic;
+}
+
 
 
 
