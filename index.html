@@ -53,7 +53,7 @@
         </nav>
 	
 				<div class="header__container-basket">
-					<a href="#" class="header__nav-btn">Корзина</a>
+					<a href="#" class="header__basket-btn">Корзина</a>
 				</div>
 			</div>
     </header>
@@ -65,49 +65,57 @@
         <img class="slider__img" src="#" alt="картинка слайдера"> -->
       </div>
 
-      <section class="new">  <!-- Каждый li это кнопка -->
+      <section class="new">
         <h2 class="main__tittle2">Новое и популярное</h2>
 
         <ul class="new__list">
-          <li class="new__item new__list_margin">
-            <img class="new__img" src="img/new/new_caesar.png" alt="Пицца Цезарь">
+          <li class="new__list_margin">
+            <a  class="new__item" href="#">
+              <img class="new__img" src="img/new/new_caesar.png" alt="Пицца Цезарь">
 
-            <div class="new__item-container">
-              <p class="new__item-caption">Цезарь</p>
-              <span class="new__price">от 445 ₽</span>
-            </div>
+              <div class="new__item-container">
+                <p class="new__item-caption">Цезарь</p>
+                <span class="new__price">от 445 ₽</span>
+              </div>
+            </a>
           </li>
 
-          <li class="new__item new__list_margin">
-            <img class="new__img" src="img/new/new_salmon.png" alt="Пицца Нежный лосось">
-            
-            <div class="new__item-container">
-              <p class="new__item-caption">Нежный лосось</p>
-              <span class="new__price">от 495 ₽</span>
-            </div>
+          <li class="new__list_margin">
+            <a  class="new__item" href="#">
+              <img class="new__img" src="img/new/new_salmon.png" alt="Пицца Нежный лосось">
+              
+              <div class="new__item-container">
+                <p class="new__item-caption">Нежный лосось</p>
+                <span class="new__price">от 495 ₽</span>
+              </div>
+            </a>
           </li>
 
-          <li class="new__item new__list_margin">
-            <img class="new__img" src="img/new/new_2pizzas.png" alt="2 пиццы">
+          <li class="new__list_margin">
+            <a  class="new__item" href="#">
+              <img class="new__img" src="img/new/new_2pizzas.png" alt="2 пиццы">
 
-            <div class="new__item-container">
-              <p class="new__item-caption">2 пиццы</p>
-              <span class="new__price">899 ₽</span>
+              <div class="new__item-container">
+                <p class="new__item-caption">2 пиццы</p>
+                <span class="new__price">899 ₽</span>
             </div>
+            </a>
           </li>
 
-          <li class="new__item new__list_margin">
-            <img class="new__img" src="img/new/new_carbonara.png" alt="Карбонара">
+          <li class="new__list_margin">
+            <a  class="new__item" href="#">
+              <img class="new__img" src="img/new/new_carbonara.png" alt="Карбонара">
 
-            <div class="new__item-container">
-              <p class="new__item-caption">Карбонара</p>
-              <span class="new__price">от 395 ₽</span>
-            </div>
+              <div class="new__item-container">
+                <p class="new__item-caption">Карбонара</p>
+                <span class="new__price">от 395 ₽</span>
+              </div>
+            </a>
           </li>
         </ul>
       </section>
 
-      <section class="pizza"> <!-- Как убрать марджин справа у каждого 4-го эл-та? И у честь это в гибкой вёрстке-->
+      <section class="pizza"> 
         <h2 class="main__tittle2">Пицца</h2>
 
         <ul class="pizza__list">
@@ -116,11 +124,12 @@
 
             <h3 class="main__tittle3">Пицца из половинок</h3>
 
-            <p class="pizza__desc">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+            <p class="pizza__desc main__desc">Соберите свою пиццу 35 см с двумя разными вкусами</p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 600 ₽</span>
-              <a href="#" class="pizza__btn">Собрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 600 ₽</span>
+
+              <button class="main__btn" type="button">Собрать</button>
             </div>
           </li>
 
@@ -129,11 +138,12 @@
 
             <h3 class="main__tittle3">Пепперони-сердце</h3>
 
-            <p class="pizza__desc">Пикантная пепперони, моцарелла, томатный соус</p>
+            <p class="pizza__desc main__desc">Пикантная пепперони, моцарелла, томатный соус</p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 625 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 625 ₽</span>
+
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
 
@@ -142,11 +152,12 @@
 
             <h3 class="main__tittle3">Пирог-сердце</h3>
             
-            <p class="pizza__desc">Ананасы, брусника, сгущенное молоко</p>
+            <p class="pizza__desc main__desc">Ананасы, брусника, сгущенное молоко</p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 625 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 625 ₽</span>
+
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
 
@@ -155,13 +166,14 @@
 
             <h3 class="main__tittle3">Чиззи чеддер</h3>
 
-            <p class="pizza__desc">
+            <p class="pizza__desc main__desc">
               Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы
             </p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 625 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 625 ₽</span>
+
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
 
@@ -170,11 +182,12 @@
 
             <h3 class="main__tittle3">Цыпленок блю чиз</h3>
 
-            <p class="pizza__desc">Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо</p>
+            <p class="pizza__desc main__desc">Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо</p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 445 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 445 ₽</span>
+
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
 
@@ -183,12 +196,13 @@
 
             <h3 class="main__tittle3">Нежный лосось</h3>
 
-            <p class="pizza__desc">
+            <p class="pizza__desc main__desc">
               Лосось, томаты черри, соус песто, моцарелла, соус альфредо
             </p>
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 495 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 495 ₽</span>
+
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
 
@@ -197,13 +211,14 @@
 
             <h3 class="main__tittle3">Сырная</h3>
 
-            <p class="pizza__desc">
+            <p class="pizza__desc main__desc">
               Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо
             </p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 245 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 245 ₽</span>
+
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
 
@@ -212,13 +227,14 @@
 
             <h3 class="main__tittle3">Пепперони фреш</h3>
 
-            <p class="pizza__desc">
+            <p class="pizza__desc main__desc">
               Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус
             </p>
 
-            <div class="pizza__item_container">
-              <span class="pizza__price">от 245 ₽</span>
-              <a href="#" class="pizza__btn">Выбрать</a>
+            <div class="main__item_container">
+              <span class="main__price">от 245 ₽</span>
+              
+              <button class="main__btn" type="button">Выбрать</button>
             </div>
           </li>
         </ul>
@@ -228,72 +244,82 @@
         <h2 class="main__tittle2">Комбо</h2>
 
         <ul class="combo__list">
-          <li class="combo__item">
-            <img class="combo__img" src="#" alt="Комбо за 599 ₽">
+          <li class="combo__item combo__item_margin">
+            <img class="combo__img" src="img/combo/combo_on-many.png" alt="Комбо за 599 ₽">
 
             <h3 class="main__tittle3">Комбо за 599 ₽</h3>
 
-            <p class="combo__desc">
+            <p class="main__desc">
               Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус.
             </p>
 
-            <span class="combo__price">599 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">599 ₽</span>
 
-            <a href="#" class="combo__btn">Собрать</a>
+              <button class="combo__btn" type="button">Собрать</button>
+            </div>
           </li>
 
-          <li class="combo__item">
-            <img class="combo__img" src="#" alt="2 пиццы">
+          <li class="combo__item combo__item_margin">
+            <img class="combo__img" src="img/combo/combo_on-many.png" alt="2 пиццы">
 
             <h3 class="main__tittle3">2 пиццы</h3>
-
-            <p class="combo__desc">
+            
+            <p class="main__desc">
               Самое популярное комбо из 2 пицц 30 см. Большой выбор
             </p>
 
-            <span class="combo__price">899 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">899 ₽</span>
 
-            <a href="#" class="combo__btn">Собрать</a>
+              <button class="combo__btn" type="button">Собрать</button>
+            </div>
           </li>
 
-          <li class="combo__item">
-            <img class="combo__img" src="#" alt="2 пиццы и закуска">
+          <li class="combo__item combo__item_margin">
+            <img class="combo__img" src="img/combo/combo_on-many.png" alt="2 пиццы и закуска">
 
             <h3 class="main__tittle3">2 пиццы и закуска</h3>
 
-            <p class="combo__desc">
+            <p class="main__desc">
               2 пиццы 25 см и закуска на выбор. Для компании из 2–4 человек
             </p>
 
-            <span class="combo__price">799 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">799 ₽</span>
 
-            <a href="#" class="combo__btn">Собрать</a>
+              <button class="combo__btn" type="button">Собрать</button>
+            </div>
           </li>
 
-          <li class="combo__item">
-            <img class="combo__img" src="#" alt="Пицца и 2 закуски">
+          <li class="combo__item combo__item_margin">
+            <img class="combo__img" src="img/combo/combo_on-many.png" alt="Пицца и 2 закуски">
 
             <h3 class="main__tittle3">Пицца и 2 закуски</h3>
 
-            <p class="combo__desc">Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек</p>
+            <p class="main__desc">Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек</p>
+            
+            <div class="main__item_container">
+              <span class="main__price">799 ₽</span>
 
-            <span class="combo__price">799 ₽</span>
-
-            <a href="#" class="combo__btn">Собрать</a>
+              <button class="combo__btn" type="button">Собрать</button>
+            </div>
           </li>
               
-          <li class="combo__item">
-            <img class="combo__img" src="#" alt="Комбо за 999 ₽">
+          <li class="combo__item combo__item_margin">
+            <img class="combo__img" src="img/combo/combo_for-one.png" alt="Комбо за 999 ₽">
 
             <h3 class="main__tittle3">Комбо за 999 ₽</h3>
 
-            <p class="combo__desc">
+            <p class="main__desc">
               3 пиццы 30 см на тонком тесте по суперцене. Выбор пицц ограничен
             </p>
 
-            <span class="combo__price">999 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">999 ₽</span>
 
-            <a href="#" class="combo__btn">Собрать</a>
+              <button class="combo__btn" type="button">Собрать</button>
+            </div>
           </li>
         </ul>
       </section>
@@ -303,73 +329,81 @@
 
         <ul class="snacks__list">
           <li class="snacks__item">
-            <img class="snacks__img" src="#" alt="Томатный суп с гренками">
+            <img class="snacks__img" src="img/snacks/snacks_soup.png" alt="Томатный суп с гренками">
 
             <h3 class="main__tittle3">Томатный суп с гренками</h3>
 
-            <p class="snacks__desc">
+            <p class="main__desc">
               Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов
             </p>
-
-            <span class="snacks__price">99 ₽</span>
-
-            <a href="#" class="snacks__btn">В корзину</a>
+            <div class="main__item_container">
+              <span class="main__price">99 ₽</span>
+              
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="snacks__item">
-            <img class="snacks__img" src="#" alt="Томатный суп с митболами">
+            <img class="snacks__img" src="img/snacks/snacks_soup.png" alt="Томатный суп с митболами">
 
             <h3 class="main__tittle3">Томатный суп с митболами</h3>
 
-            <p class="snacks__desc">
+            <p class="main__desc">
               Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов
             </p>
+            <div class="main__item_container">
+              <span class="main__price">149 ₽</span>
 
-            <span class="snacks__price">149 ₽</span>
-
-            <a href="#" class="snacks__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="snacks__item">
-            <img class="snacks__img" src="#" alt="Додстер">
+            <img class="snacks__img" src="img/snacks/snacks_dodster.png" alt="Додстер">
 
             <h3 class="main__tittle3">Додстер</h3>
 
-            <p class="snacks__desc">
+            <p class="main__desc">
               Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке
             </p>
 
-            <span class="snacks__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">159 ₽</span>
 
-            <a href="#" class="snacks__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="snacks__item">
-            <img class="snacks__img" src="#" alt="Острый Додстер">
+            <img class="snacks__img" src="img/snacks/snacks_sharp-dodster.png" alt="Острый Додстер">
 
             <h3 class="main__tittle3">Острый Додстер</h3>
 
-            <p class="snacks__desc">
+            <p class="main__desc">
               Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке
             </p>
 
-            <span class="snacks__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">159 ₽</span>
 
-            <a href="#" class="snacks__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="snacks__item">
-            <img class="snacks__img" src="#" alt="Додстер Чипотле">
+            <img class="snacks__img" src="img/snacks/snacks_dodster-chipotle.png" alt="Додстер Чипотле">
 
             <h3 class="main__tittle3">Додстер Чипотле</h3>
 
-            <p class="snacks__desc">
+            <p class="main__desc">
               Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке
             </p>
 
-            <span class="snacks__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">159 ₽</span>
 
-            <a href="#" class="snacks__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
         </ul>
       </section>
@@ -379,71 +413,81 @@
 
         <ul class="desserts__list">
           <li class="desserts__item">
-            <img class="desserts__img" src="#" alt="Яблочный пирог">
+            <img class="desserts__img" src="img/desserts/desserts_apple-pie.png" alt="Яблочный пирог">
 
             <h3 class="main__tittle3">Яблочный пирог</h3>
 
-            <p class="desserts__desc">
+            <p class="main__desc">
                 Десерт из песочного теста с яблочной начинкой. Может содержать изюм
             </p>
 
-            <span class="desserts__price">99 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">99 ₽</span>
 
-            <a href="#" class="desserts__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="desserts__item">
-            <img class="desserts__img" src="#" alt="Чизкейк Нью-Йорк">
+            <img class="desserts__img" src="img/desserts/desserts_cheesecake-new-york.png" alt="Чизкейк Нью-Йорк">
 
             <h3 class="main__tittle3">Чизкейк Нью-Йорк</h3>
 
-            <p class="desserts__desc">
+            <p class="main__desc">
               Классический американский творожный десерт
             </p>
 
-            <span class="desserts__price">149 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">149 ₽</span>
 
-            <a href="#" class="desserts__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="desserts__item">
-            <img class="desserts__img" src="#" alt="Фонданы, 2 шт">
+            <img class="desserts__img" src="img/desserts/desserts_fondants.png" alt="Фонданы, 2 шт">
 
             <h3 class="main__tittle3">Фонданы, 2 шт</h3>
 
-            <p class="desserts__desc">
+            <p class="main__desc">
               Два десерта с хрустящей корочкой и топлёной шоколадной начинкой
             </p>
 
-            <span class="desserts__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">159 ₽</span>
 
-            <a href="#" class="desserts__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="desserts__item">
-            <img class="desserts__img" src="#" alt="Молочный коктейль с печеньем Орео">
+            <img class="desserts__img" src="img/desserts/desserts_milkshake.png" alt="Молочный коктейль с печеньем Орео">
 
             <h3 class="main__tittle3">Молочный коктейль с печеньем Орео</h3>
 
-            <p class="desserts__desc">
+            <p class="main__desc">
               Напиток из молока и мороженого с добавлением дробленого печенья «Орео»
             </p>
 
-            <span class="desserts__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">159 ₽</span>
 
-            <a href="#" class="desserts__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="desserts__item">
-            <img class="desserts__img" src="#" alt="Классический молочный коктейль">
+            <img class="desserts__img" src="img/desserts/desserts_milkshake.png" alt="Классический молочный коктейль">
 
             <h3 class="main__tittle3">Классический молочный коктейль</h3>
 
-            <p class="desserts__desc">Напиток из молока и мороженого</p>
+            <p class="main__desc">Напиток из молока и мороженого</p>
 
-            <span class="desserts__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="main__price">159 ₽</span>
 
-            <a href="#" class="desserts__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
         </ul>
       </section>
@@ -457,13 +501,15 @@
 
             <h3 class="main__tittle3">2 Coca-Cola по суперцене</h3>
 
-            <p class="drinkables__desc">
+            <p class="main__desc">
               Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л
             </p>
 
-            <span class="drinkables__price">99 ₽</span>
+            <div class="main__item_container">
+              <span class="drinkables__price">99 ₽</span>
 
-            <a href="#" class="drinkables__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="drinkables__item">
@@ -471,11 +517,13 @@
 
             <h3 class="main__tittle3">Coca-Cola Orange</h3>
 
-            <p class="drinkables__desc">0,5 л</p>
+            <p class="main__desc">0,5 л</p>
 
-            <span class="drinkables__price">149 ₽</span>
+            <div class="main__item_container">
+              <span class="drinkables__price">149 ₽</span>
 
-            <a href="#" class="drinkables__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="drinkables__item">
@@ -483,11 +531,13 @@
 
             <h3 class="main__tittle3">Coca-Cola Zero</h3>
 
-            <p class="drinkables__desc">0,5 л</p>
+            <p class="main__desc">0,5 л</p>
 
-            <span class="drinkables__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="drinkables__price">159 ₽</span>
 
-            <a href="#" class="drinkables__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
 
           <li class="drinkables__item">
@@ -495,11 +545,13 @@
 
             <h3 class="main__tittle3">Coca-Cola</h3>
 
-            <p class="drinkables__desc">0,5 л</p>
+            <p class="main__desc">0,5 л</p>
 
-            <span class="drinkables__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="drinkables__price">159 ₽</span>
 
-            <a href="#" class="drinkables__btn">+ - 3</a>
+              <a href="#" class="main__btn">+ - 3</a>
+            </div>
           </li>
 
           <li class="drinkables__item">
@@ -507,11 +559,13 @@
 
             <h3 class="main__tittle3">Coca-Cola Vanilla</h3>
 
-            <p class="drinkables__desc">0,5 л</p>
+            <p class="main__desc">0,5 л</p>
 
-            <span class="drinkables__price">159 ₽</span>
+            <div class="main__item_container">
+              <span class="drinkables__price">159 ₽</span>
 
-            <a href="#" class="drinkables__btn">В корзину</a>
+              <button class="main__btn" type="button">В корзину</button>
+            </div>
           </li>
         </ul>
       </section>
