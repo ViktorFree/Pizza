@@ -26,14 +26,34 @@ main {
   line-height: 33px;
 }
 
-.new__list {
+.slider {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
-.new__list_margin:not(:last-child) {
-  margin-right: 20px;
+  .slider__img {
+    max-height: 340px;
+    
+    border-radius: 20px;
+    opacity: 0,5;
+  }
+
+  .slider__img_select {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 20px;
+  }
+
+
+
+.new__list {
+  gap: 0 20px;
+
+  display: flex;
+  flex-wrap: wrap;
 }
+
   .new__item {
     min-width: 250px;
     min-height: 104px;
@@ -79,263 +99,158 @@ main {
         line-height: 22px;
       }
 
-  .pizza__list {
+.main__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 60px;
+  column-gap: 20px;
+}
+
+  .main__item {
+    width: 250px;
+    min-height: 370px;
+
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
   }
-    .pizza__item {
-      margin-bottom: 60px;
-      max-width: 250px;
-      height: 370px;
-      
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
+
+  .main__item_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .main__img {
+      margin-bottom: 5px;
+      align-self: center;
+
+      max-width: 100%;
+      max-height: auto;
+
+      transition-duration: 0.3s;
     }
 
-    .pizza__item_margin:not(:nth-child(4n)) {
-      margin-right: 20px;
-    }
-      .pizza__img {
-        margin-bottom: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
+    .main__img:hover {
+      position: relative;
+      top: 2px;
 
-        width: 220px;
-        height: 220px;
+      transition-duration: 0.3s;
+    }
+
+    .main__tittle3 {
+      margin-bottom: 10px;
+
+      display: block;
+
+      font-family: Nunito;
+      font-weight: 600;
+      font-size: 20px;
+
+      line-height: 27px;
+      color: #000000;
+    }
+
+      .main__container-desc {
+        display: flex;
+        flex-direction: column;
       }
 
-      .main__tittle3 {
-        margin-bottom: 10px;
-
-        display: block;
+      .main__desc {
+        margin-bottom: auto;
 
         font-family: Nunito;
-        font-weight: 600;
-        font-size: 20px;
+        font-size: 14px;
 
-        line-height: 27px;
-        color: #000000;
+        line-height: 19px;
+        color: #73798C;
       }
 
-        .main__desc {
-          margin-bottom: auto;
-          max-height: 27px;
+        .main__price {
+          /* margin-right: 46px; */
+          padding-top: 10px;
 
           font-family: Nunito;
-          font-size: 14px;
-
-          line-height: 19px;
-          color: #73798C;
+          font-weight: 600;
+          font-size: 16px;
+          
+          line-height: 22px;
         }
 
-          .main__price {
-            /* margin-right: 46px; */
-            padding-top: 10px;
+        .main__btn {
+          min-width: 120px;
+          max-height: 40px;
 
-            font-family: Nunito;
-            font-weight: 600;
-            font-size: 16px;
-            
-            line-height: 22px;
-          }
+          font-family: Nunito;
+          font-weight: 600;
+          font-size: 16px;
 
-          .main__btn {
-            min-width: 120px;
-            min-height: 40px;
+          text-align: center;
+          line-height: 22px;
+          outline: none;
 
-            font-family: Nunito;
-            font-weight: 600;
-            font-size: 16px;
+          border: none;
+          border-radius: 1000px;
+          
+          color: #D15700;
+          background-color: #FFF0E6;
 
-            text-align: center;
-            line-height: 22px;
-            outline: none;
+          cursor: pointer;
+          transition-duration: 0.3s;
+        }
 
-            border: none;
-            border-radius: 1000px;
-            
-            color: #D15700;
-            background-color: #FFF0E6;
+        .main__btn:hover {
+          background-color: #ffd2b3;
+          transition-duration: 0.3s;
+        }
 
-            cursor: pointer;
-          }
+        .pizza__btn-select {
+          background-color: #F96900;
+          color: #FFFFFF;
+          
+        }
 
-          .pizza__btn-select {
-            background-color: #F96900;
-            color: #FFFFFF;
-          }
+        .pizza__btn-select:hover {
+          background-color: #ff6900;
+        }
 
-.combo__list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .combo__btn {
+    width: 120px;
+    height: 40px;
 
-  .combo__item {
-    margin-bottom: 60px;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 16px;
 
-    max-width: 250px;
-    min-height: 370px;
+    line-height: 22px;
+    text-align: center;
 
+    border-radius: 1000px;
+    border: none;
+
+    background-color: #F96900;
+    color: #FFFFFF;
+
+    cursor: pointer;
+  }
+
+  .combo__btn:hover {
+    background-color: #f65a12;
+  }
+
+  .main__btn_add-basket {
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;
+
+    align-items: center;
+    background-color: #F3F3F7;
+    color: #73798C;
   }
 
-  .combo__item_margin:not(:nth-child(4n)) {
-    margin-right: 20px;
-  }
-
-    .combo__img {
-      margin-bottom: 5px;
-      padding-right: 15px;
-      padding-left: 15px;
-
-      width: 220px;
-      height: 220px;
-
+    .drinkables__btn-position_left {
+      padding-left: 16px;
     }
 
-    .main__item_container {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    .drinkables__btn-position_right {
+      padding-right: 16px;
     }
-
-      .combo__price {
-        padding-top: 10px;
-
-        font-family: Nunito;
-        font-weight: 600;
-        font-size: 16px;
-
-        line-height: 22px;
-
-        color: #000000;
-      }
-
-      .combo__btn {
-        width: 120px;
-        height: 40px;
-
-        font-family: Nunito;
-        font-weight: 600;
-        font-size: 16px;
-
-        line-height: 22px;
-        text-align: center;
-
-        border-radius: 1000px;
-        border: none;
-
-        background-color: #F96900;
-        color: #FFFFFF;
-      }
-
-.snacks__list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-    .snacks__item {
-      margin-bottom: 60px;
-      width: 250px;
-      min-height: 425px;
-      
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-
-    .snacks__item:not(:nth-child(4n)) {
-      margin-right: 20px;
-    }
-
-      .snacks__img {
-        margin-bottom: 5px;
-        padding-right: 15px;
-        padding-left: 15px;
-
-        width: 220px;
-        height: 220px;
-      }
-
-.desserts__list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-  .desserts__item {
-    margin-bottom: 60px;
-
-    max-width: 250px;
-    min-height: 370px;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .desserts__item_margin:not(:nth-child(4n)) {
-    margin-right: 20px;
-  }
-
-    .desserts__img {
-      margin-bottom: 5px;
-      padding-right: 15px;
-      padding-left: 15px;
-
-      width: 220px;
-      height: 220px;
-    }
-
-.drinkables__list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-  .drinkables__item {
-    margin-bottom: 60px;
-
-    max-width: 250px;
-    min-height: 370px;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .drinkables__item_margin:not(:nth-child(4n)) {
-    margin-right: 20px;
-  }
-
-    .drinkables__img {
-      margin-bottom: 5px;
-      padding-right: 15px;
-      padding-left: 15px;
-
-      width: 220px;
-      height: 220px;
-    }
-
-    .main__btn_add-basket {
-      display: flex;
-      justify-content: space-between;
-
-      align-items: center;
-      background-color: #F3F3F7;
-      color: #73798C;
-    }
-
-      .drinkables__btn-position_left {
-        padding-left: 16px;
-      }
-
-      .drinkables__btn-position_right {
-        padding-right: 16px;
-      }
               

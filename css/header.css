@@ -1,3 +1,7 @@
+.header {
+	padding-top: 25px;
+}
+
 .header__container-hight {
   margin-bottom: 41px;
 
@@ -8,12 +12,12 @@
     margin-right: 668.39px;
     
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
   }
     .header__container-img {
       margin-right: 14.67px;
-      max-width: 42,33px; 
-      max-height: 44px;
+      width: 42.33px; 
+      height: 44px;
 
       display: flex;
     }
@@ -28,6 +32,8 @@
       .header__logo-text {
         padding-top: 3.11px;
         margin-bottom: 7.6px;
+
+        white-space: nowrap;
       }
 
       .header__subtittle {
@@ -38,17 +44,22 @@
         white-space: nowrap;
         color: #343434;
       }
+
   .header__container-telephone {
     display: flex;
     flex-direction: column;
   }
+
     .header__telephone {
       font-family: Nunito;
       font-weight: 600;
       font-size: 18px;
+      
       line-height: 25px;
       text-decoration: none;
       color: #000000;
+
+      white-space: nowrap;
     }
 
     .header__text {
@@ -58,13 +69,13 @@
       color: #999999;
     }
 
-
 .header__container-bottom {
   margin-bottom: 38px;
 
   display: flex;
   justify-content:space-between;
 }
+
   .header__nav-list {
     margin-right: 489px;
 
@@ -117,5 +128,10 @@
 
       color: #FFFFFF;   
     }
+
+    .header__container-basket:hover {
+      background-color: #e86100;
+    }
+    
 
 

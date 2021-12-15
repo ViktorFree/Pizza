@@ -6,181 +6,207 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/rezet.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" media="all and (max-width: 600px)" href="css/media/320px.css">
 
 	<title>Додо пицца</title>
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
-			<div class="header__container-hight">
-				<div class="header__container-logo">
-          <div class="header__container-img">
-            <img class="header__img-logo" src="img/header/logo.svg" alt="Логотип">
-          </div>
+  <header class="header container">
+    <div class="header__container-hight">
+      <div class="header__container-logo">
+        <div class="header__container-img">
+          <img class="header__img-logo" src="img/header/logo.svg" alt="Логотип">
+        </div>
 
-					<div class="header__logo-wrap">
-            <img class="header__logo-text" src="img/header/logo-text.svg" alt="Логотип">
+        <div class="header__logo-wrap">
+          <img class="header__logo-text" src="img/header/logo-text.svg" alt="Логотип">
 
-						<h1 class="header__tittle1 visually-hidden">ДОДО ПИЦЦА</h1>
+          <h1 class="header__tittle1 visually-hidden">ДОДО ПИЦЦА</h1>
 
-            <p class="header__subtittle">Сеть пиццерий №1 в России</p>
-					</div>
-				</div>  
-				
-				<div class="header__container-telephone">
-					<a class="header__telephone" href="tel:+88003020060">8 800 302-00-60</a>
+          <p class="header__subtittle">Сеть пиццерий №1 в России</p>
+        </div>
+      </div>  
+      
+      <div class="header__container-telephone">
+        <a class="header__telephone" href="tel:+88003020060">8 800 302-00-60</a>
 
-					<p class="header__text">Звонок бесплатный</p>
-				</div>
-			</div>
-
-			<div class="header__container-bottom">
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item header__nav-item_margin ">
-              <a class="header__nav-link header__nav-link_hover" href="#">Пицца</a>
-            </li>
-
-            <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
-              <a class="header__nav-link header__nav-link_hover" href="#">Комбо</a>
-            </li>
-
-            <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
-              <a class="header__nav-link header__nav-link_hover" href="#">Закуски</a>
-            </li>
-
-            <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
-              <a class="header__nav-link header__nav-link_hover" href="#">Десерты</a>
-            </li>
-
-            <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
-              <a class="header__nav-link header__nav-link_hover" href="#">Напитки</a>
-            </li>
-
-            <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
-              <a class="header__nav-link header__nav-link_hover" href="#">Другие товары</a>
-            </li>
-          </ul>
-        </nav>
-	
-				<div class="header__container-basket">
-					<a href="#" class="header__basket-btn">Корзина</a>
-				</div>
-			</div>
-    </header>
-    
-    <main class="main">     
-      <div class="slider">
-        <img class="slider__img" src="img/slaider/sld_1.png" alt="картинка слайдера">  <!-- 1 картинка по центру, две выходят за пределы -->
-        <!-- <img class="slider__img" src="#" alt="картинка слайдера"> 
-        <img class="slider__img" src="#" alt="картинка слайдера"> -->
+        <p class="header__text">Звонок бесплатный</p>
       </div>
+    </div>
 
-      <section class="new">
-        <h2 class="main__tittle2">Новое и популярное</h2>
-
-        <ul class="new__list">
-          <li class="new__list_margin">
-            <a  class="new__item" href="#">
-              <img class="new__img" src="img/new/new_caesar.png" alt="Пицца Цезарь">
-
-              <div class="new__item-container">
-                <p class="new__item-caption">Цезарь</p>
-                <span class="new__price">от 445 ₽</span>
-              </div>
-            </a>
+    <div class="header__container-bottom">
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item header__nav-item_margin ">
+            <a class="header__nav-link header__nav-link_hover" href="#pizza">Пицца</a>
           </li>
 
-          <li class="new__list_margin">
-            <a  class="new__item" href="#">
-              <img class="new__img" src="img/new/new_salmon.png" alt="Пицца Нежный лосось">
-              
-              <div class="new__item-container">
-                <p class="new__item-caption">Нежный лосось</p>
-                <span class="new__price">от 495 ₽</span>
-              </div>
-            </a>
+          <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
+            <a class="header__nav-link header__nav-link_hover" href="#combo">Комбо</a>
           </li>
 
-          <li class="new__list_margin">
-            <a  class="new__item" href="#">
-              <img class="new__img" src="img/new/new_2pizzas.png" alt="2 пиццы">
-
-              <div class="new__item-container">
-                <p class="new__item-caption">2 пиццы</p>
-                <span class="new__price">899 ₽</span>
-            </div>
-            </a>
+          <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
+            <a class="header__nav-link header__nav-link_hover" href="#snacks">Закуски</a>
           </li>
 
-          <li class="new__list_margin">
-            <a  class="new__item" href="#">
-              <img class="new__img" src="img/new/new_carbonara.png" alt="Карбонара">
+          <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
+            <a class="header__nav-link header__nav-link_hover" href="#desserts">Десерты</a>
+          </li>
 
-              <div class="new__item-container">
-                <p class="new__item-caption">Карбонара</p>
-                <span class="new__price">от 395 ₽</span>
-              </div>
-            </a>
+          <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
+            <a class="header__nav-link header__nav-link_hover" href="#drinkables">Напитки</a>
+          </li>
+
+          <li class="header__nav-item header__nav-item_margin header__nav-link_hover">
+            <a class="header__nav-link header__nav-link_hover" href="#">Другие товары</a>
           </li>
         </ul>
-      </section>
+      </nav>
 
-      <section class="pizza"> 
-        <h2 class="main__tittle2">Пицца</h2>
+      <div class="header__container-basket">
+        <a href="#" class="header__basket-btn">Корзина</a>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main">     
+    <div class="slider"> 
+      <picture>
+        <source srcset="img/1img.mobile/slaider/sld_1.jpg" media="(max-width:320px)">
+        <img class="slider__img slider__img_none" src="img/slaider/sld_2.png" alt="картинка слайдера">
+      </picture>
+      
+      <picture>
+        <source srcset="img/1img.mobile/slaider/sld_1.jpg" media="(max-width:320px)">
+        <img class="slider__img_select" src="img/slaider/sld_corr.png" alt="картинка слайдера">
+      </picture>
+      
+      <picture>
+        <source srcset="img/1img.mobile/slaider/sld_2.png" media="(max-width:320px)">
+        <img class="slider__img" src="img/slaider/sld_3.png" alt="картинка слайдера">
+      </picture>
+    </div>
 
-        <ul class="pizza__list">
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_halved-pizza.png" alt="Пицца из половинок">
+    <section class="new container">
+      <h2 class="main__tittle2">Новое и популярное</h2>
 
+      <ul class="new__list">
+        <li class="new__list_margin">
+          <a  class="new__item" href="#">
+            <picture>
+              <img class="new__img" src="img/new/new_caesar.png" alt="Пицца Цезарь">
+            </picture>
+
+            <div class="new__item-container">
+              <p class="new__item-caption">Цезарь</p>
+              <span class="new__price">от 445 ₽</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="new__list_margin">
+          <a  class="new__item" href="#">
+            <img class="new__img" src="img/new/new_salmon.png" alt="Пицца Нежный лосось">
+            
+            <div class="new__item-container">
+              <p class="new__item-caption">Нежный лосось</p>
+              <span class="new__price">от 495 ₽</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="new__list_margin">
+          <a  class="new__item" href="#">
+            <img class="new__img" src="img/new/new_2pizzas.png" alt="2 пиццы">
+
+            <div class="new__item-container">
+              <p class="new__item-caption">2 пиццы</p>
+              <span class="new__price">899 ₽</span>
+          </div>
+          </a>
+        </li>
+
+        <li class="new__list_margin">
+          <a  class="new__item" href="#">
+            <img class="new__img" src="img/new/new_carbonara.png" alt="Карбонара">
+
+            <div class="new__item-container">
+              <p class="new__item-caption">Карбонара</p>
+              <span class="new__price">от 395 ₽</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="pizza" class="pizza container"> 
+      <h2 class="main__tittle2">Пицца</h2>
+
+      <ul class="main__list">
+        <li class="main__item main__item_320pix ">
+          <picture>
+            <source srcset="img/1img.mobile/pizza/pizza_halved-pizza.png" media="(max-width:320px)">
+            <img class="main__img" src="img/pizza/pizza_halved-pizza.png" alt="Пицца из половинок">
+          </picture>
+          
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Пицца из половинок</h3>
 
             <p class="pizza__desc main__desc">Соберите свою пиццу 35 см с двумя разными вкусами</p>
 
             <div class="main__item_container">
               <span class="main__price">от 600 ₽</span>
-
               <button class="main__btn pizza__btn-select" type="button">Собрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_pepperoni-heart.png" alt="Пепперони-сердце">
+        <li class="main__item main__item_320pix display-none">
+          <picture>
+            <source srcset="img/1img.mobile/pizza/" media="(max-width:320px)">
+            <img class="main__img" src="img/pizza/pizza_pepperoni-heart.png" alt="Пепперони-сердце">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Пепперони-сердце</h3>
 
             <p class="pizza__desc main__desc">Пикантная пепперони, моцарелла, томатный соус</p>
-
+            
             <div class="main__item_container">
               <span class="main__price">от 625 ₽</span>
-
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_heart-pie.png" alt="Пирог-сердце">
+        <li class="main__item main__item_320pix display-none">
+          <img class="main__img" src="img/pizza/pizza_heart-pie.png" alt="Пирог-сердце">
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Пирог-сердце</h3>
             
             <p class="pizza__desc main__desc">Ананасы, брусника, сгущенное молоко</p>
 
             <div class="main__item_container">
               <span class="main__price">от 625 ₽</span>
-
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_chizzy-cheddar.png" alt="Чиззи чеддер">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/pizza/pizza_chizzy-cheddar.png" media="(max-width:320px)">
+            <img class="main__img" src="img/pizza/pizza_chizzy-cheddar.png" alt="Чиззи чеддер">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Чиззи чеддер</h3>
 
             <p class="pizza__desc main__desc">
@@ -189,28 +215,36 @@
 
             <div class="main__item_container">
               <span class="main__price">от 625 ₽</span>
-
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_chicken-blue-cheese.png" alt="Цыпленок блю чиз">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/pizza/pizza_chicken-blue-cheese.png" media="(max-width:320px)">
+            <img class="main__img" src="img/pizza/pizza_chicken-blue-cheese.png" alt="Цыпленок блю чиз">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Цыпленок блю чиз</h3>
 
             <p class="pizza__desc main__desc">Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо</p>
 
             <div class="main__item_container">
               <span class="main__price">от 445 ₽</span>
-
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_tender-salmon.png" alt="Нежный лосось">
-
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/pizza/pizza_tender-salmon.png" media="(max-width:320px)">
+            <img class="main__img" src="img/pizza/pizza_tender-salmon.png" alt="Нежный лосось">
+          </picture>
+          
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Нежный лосось</h3>
 
             <p class="pizza__desc main__desc">
@@ -218,14 +252,15 @@
             </p>
             <div class="main__item_container">
               <span class="main__price">от 495 ₽</span>
-
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_cheese.png" alt="Сырная">
+        <li class="main__item main__item_320pix display-none">
+          <img class="main__img" src="img/pizza/pizza_cheese.png" alt="Сырная">
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Сырная</h3>
 
             <p class="pizza__desc main__desc">
@@ -234,14 +269,15 @@
 
             <div class="main__item_container">
               <span class="main__price">от 245 ₽</span>
-
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="pizza__item pizza__item_margin">
-            <img class="pizza__img" src="img/pizza/pizza_pepperoni-fresh.png" alt="Пепперони фреш">
+        <li class="main__item main__item_320pix display-none">
+          <img class="main__img" src="img/pizza/pizza_pepperoni-fresh.png" alt="Пепперони фреш">
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Пепперони фреш</h3>
 
             <p class="pizza__desc main__desc">
@@ -250,20 +286,24 @@
 
             <div class="main__item_container">
               <span class="main__price">от 245 ₽</span>
-              
               <button class="main__btn" type="button">Выбрать</button>
             </div>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-      <section class="combo">
-        <h2 class="main__tittle2">Комбо</h2>
+    <section id="combo" class="combo container">
+      <h2 class="main__tittle2">Комбо</h2>
 
-        <ul class="combo__list">
-          <li class="combo__item combo__item_margin">
-            <img class="combo__img" src="img/combo/combo_on-many.png" alt="Комбо за 599 ₽">
+      <ul class="main__list">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/combo/combo_on-many.png" media="(max-width:320px)">
+            <img class="main__img" src="img/combo/combo_on-many.png" alt="Комбо за 599 ₽">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Комбо за 599 ₽</h3>
 
             <p class="main__desc">
@@ -272,14 +312,18 @@
 
             <div class="main__item_container">
               <span class="main__price">599 ₽</span>
-
               <button class="combo__btn" type="button">Собрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="combo__item combo__item_margin">
-            <img class="combo__img" src="img/combo/combo_on-many.png" alt="2 пиццы">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/combo/combo_on-many.png" media="(max-width:320px)">
+            <img class="main__img" src="img/combo/combo_on-many.png" alt="2 пиццы">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">2 пиццы</h3>
             
             <p class="main__desc">
@@ -288,14 +332,18 @@
 
             <div class="main__item_container">
               <span class="main__price">899 ₽</span>
-
               <button class="combo__btn" type="button">Собрать</button>
-            </div>
-          </li>
+          </div>
+          </div>
+        </li>
 
-          <li class="combo__item combo__item_margin">
-            <img class="combo__img" src="img/combo/combo_on-many.png" alt="2 пиццы и закуска">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/combo/combo_on-many.png" media="(max-width:320px)">
+            <img class="main__img" src="img/combo/combo_on-many.png" alt="2 пиццы и закуска">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">2 пиццы и закуска</h3>
 
             <p class="main__desc">
@@ -304,28 +352,36 @@
 
             <div class="main__item_container">
               <span class="main__price">799 ₽</span>
-
               <button class="combo__btn" type="button">Собрать</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="combo__item combo__item_margin">
-            <img class="combo__img" src="img/combo/combo_on-many.png" alt="Пицца и 2 закуски">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/combo/combo_on-many.png" media="(max-width:320px)">
+            <img class="main__img" src="img/combo/combo_on-many.png" alt="Пицца и 2 закуски">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Пицца и 2 закуски</h3>
 
             <p class="main__desc">Пицца 30 см и 2 закуски на выбор. Для компании из 2–4 человек</p>
             
             <div class="main__item_container">
               <span class="main__price">799 ₽</span>
-
               <button class="combo__btn" type="button">Собрать</button>
             </div>
-          </li>
-              
-          <li class="combo__item combo__item_margin">
-            <img class="combo__img" src="img/combo/combo_for-one.png" alt="Комбо за 999 ₽">
+          </div>
+        </li>
+            
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/combo/combo_for-one.png" media="(max-width:320px)">
+            <img class="main__img" src="img/combo/combo_for-one.png" alt="Комбо за 999 ₽">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Комбо за 999 ₽</h3>
 
             <p class="main__desc">
@@ -334,35 +390,44 @@
 
             <div class="main__item_container">
               <span class="main__price">999 ₽</span>
-
               <button class="combo__btn" type="button">Собрать</button>
             </div>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-      <section class="snacks">
-        <h2 class="main__tittle2">Закуски</h2>  
+    <section id="snacks" class="snacks container">
+      <h2 class="main__tittle2">Закуски</h2>  
 
-        <ul class="snacks__list">
-          <li class="snacks__item">
-            <img class="snacks__img" src="img/snacks/snacks_soup.png" alt="Томатный суп с гренками">
+      <ul class="main__list">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/snacks/snacks_soup.png" media="(max-width:320px)">
+            <img class="main__img" src="img/snacks/snacks_soup.png" alt="Томатный суп с гренками">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Томатный суп с гренками</h3>
 
             <p class="main__desc">
               Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов
             </p>
+
             <div class="main__item_container">
               <span class="main__price">99 ₽</span>
-              
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="snacks__item">
-            <img class="snacks__img" src="img/snacks/snacks_soup.png" alt="Томатный суп с митболами">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/snacks/snacks_soup-1.png" media="(max-width:320px)">
+            <img class="main__img" src="img/snacks/snacks_soup.png" alt="Томатный суп с митболами">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Томатный суп с митболами</h3>
 
             <p class="main__desc">
@@ -370,14 +435,18 @@
             </p>
             <div class="main__item_container">
               <span class="main__price">149 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="snacks__item">
-            <img class="snacks__img" src="img/snacks/snacks_dodster.png" alt="Додстер">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/snacks/snacks_dodster.png" media="(max-width:320px)">
+            <img class="main__img" src="img/snacks/snacks_dodster.png" alt="Додстер">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Додстер</h3>
 
             <p class="main__desc">
@@ -386,14 +455,18 @@
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="snacks__item">
-            <img class="snacks__img" src="img/snacks/snacks_sharp-dodster.png" alt="Острый Додстер">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/snacks/snacks_sharp-dodster.png" media="(max-width:320px)">
+            <img class="main__img" src="img/snacks/snacks_sharp-dodster.png" alt="Острый Додстер">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Острый Додстер</h3>
 
             <p class="main__desc">
@@ -402,14 +475,18 @@
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="snacks__item">
-            <img class="snacks__img" src="img/snacks/snacks_dodster-chipotle.png" alt="Додстер Чипотле">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/snacks/snacks_dodster-chipotle.png" media="(max-width:320px)">
+            <img class="main__img" src="img/snacks/snacks_dodster-chipotle.png" alt="Додстер Чипотле">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Додстер Чипотле</h3>
 
             <p class="main__desc">
@@ -418,20 +495,24 @@
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-      <section class="desserts">
-        <h2 class="main__tittle2">Десерты</h2>
+    <section id="desserts" class="desserts container">
+      <h2 class="main__tittle2">Десерты</h2>
 
-        <ul class="desserts__list">
-          <li class="desserts__item desserts__item_margin">
-            <img class="desserts__img" src="img/desserts/desserts_apple-pie.png" alt="Яблочный пирог">
+      <ul class="main__list">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/desserts/desserts_apple-pie.png" media="(max-width:320px)">
+            <img class="main__img" src="img/desserts/desserts_apple-pie.png" alt="Яблочный пирог">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Яблочный пирог</h3>
 
             <p class="main__desc">
@@ -440,14 +521,18 @@
 
             <div class="main__item_container">
               <span class="main__price">99 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="desserts__item desserts__item_margin">
-            <img class="desserts__img" src="img/desserts/desserts_cheesecake-new-york.png" alt="Чизкейк Нью-Йорк">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/desserts/desserts_cheesecake-new-york.png" media="(max-width:320px)">
+            <img class="main__img" src="img/desserts/desserts_cheesecake-new-york.png" alt="Чизкейк Нью-Йорк">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Чизкейк Нью-Йорк</h3>
 
             <p class="main__desc">
@@ -456,14 +541,18 @@
 
             <div class="main__item_container">
               <span class="main__price">149 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="desserts__item desserts__item_margin">
-            <img class="desserts__img" src="img/desserts/desserts_fondants.png" alt="Фонданы, 2 шт">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/desserts/desserts_fondants.png" media="(max-width:320px)">
+            <img class="main__img" src="img/desserts/desserts_fondants.png" alt="Фонданы, 2 шт">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Фонданы, 2 шт</h3>
 
             <p class="main__desc">
@@ -472,14 +561,18 @@
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="desserts__item desserts__item_margin">
-            <img class="desserts__img" src="img/desserts/desserts_milkshake.png" alt="Молочный коктейль с печеньем Орео">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/desserts/desserts_milkshake.png" media="(max-width:320px)">
+            <img class="main__img" src="img/desserts/desserts_milkshake.png" alt="Молочный коктейль с печеньем Орео">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Молочный коктейль с печеньем Орео</h3>
 
             <p class="main__desc">
@@ -488,34 +581,42 @@
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="desserts__item desserts__item_margin">
-            <img class="desserts__img" src="img/desserts/desserts_milkshake.png" alt="Классический молочный коктейль">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/desserts/desserts_milkshake1.png" media="(max-width:320px)">
+            <img class="main__img" src="img/desserts/desserts_milkshake.png" alt="Классический молочный коктейль">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Классический молочный коктейль</h3>
 
             <p class="main__desc">Напиток из молока и мороженого</p>
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
-        </ul>
-      </section>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-      <section class="drinkables">
-        <h2 class="main__tittle2">Напитки</h2> 
+    <section id="drinkables" class="drinkables container">
+      <h2 class="main__tittle2">Напитки</h2> 
 
-        <ul class="drinkables__list">
-          <li class="drinkables__item drinkables__item_margin">
-            <img class="drinkables__img" src="img/drinkables/drinkables_2-coca-cola.png" alt="2 Coca-Cola по суперцене">
+      <ul class="main__list">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/drinkables/drinkables_2-coca-cola.png" media="(max-width:320px)">
+            <img class="main__img" src="img/drinkables/drinkables_2-coca-cola.png" alt="2 Coca-Cola по суперцене">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">2 Coca-Cola по суперцене</h3>
 
             <p class="main__desc">
@@ -524,114 +625,134 @@
 
             <div class="main__item_container">
               <span class="main__price">99 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="drinkables__item drinkables__item_margin">
-            <img class="drinkables__img" src="img/drinkables/drinkables_coca-cola-orange.png" alt="Coca-Cola Orange">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/drinkables/drinkables_coca-cola-orange.png" media="(max-width:320px)">
+            <img class="main__img" src="img/drinkables/drinkables_coca-cola-orange.png" alt="Coca-Cola Orange">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Coca-Cola Orange</h3>
 
             <p class="main__desc">0,5 л</p>
 
             <div class="main__item_container">
               <span class="main__price">149 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="drinkables__item drinkables__item_margin">
-            <img class="drinkables__img" src="img/drinkables/drinkables_coca-cola-zero.png" alt="Coca-Cola Zero">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/drinkables/drinkables_coca-cola-zero.png" media="(max-width:320px)">
+            <img class="main__img" src="img/drinkables/drinkables_coca-cola-zero.png" alt="Coca-Cola Zero">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Coca-Cola Zero</h3>
 
             <p class="main__desc">0,5 л</p>
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="drinkables__item drinkables__item_margin">
-            <img class="drinkables__img" src="img/drinkables/drinkables_coca-cola.png" alt="Coca-Cola">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/drinkables/drinkables_coca-cola.png" media="(max-width:320px)">
+            <img class="main__img" src="img/drinkables/drinkables_coca-cola.png" alt="Coca-Cola">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Coca-Cola</h3>
 
             <p class="main__desc">0,5 л</p>
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn main__btn_add-basket" type="button">
                 <span class = "drinkables__btn-position_left">+</span>
                 <span class = "drinkables__btn-position_center">3</span>
                 <span class = "drinkables__btn-position_right">-</span>
               </button>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="drinkables__item drinkables__item_margin">
-            <img class="drinkables__img" src="img/drinkables/drinkables_coca-cola-vanilla.png" alt="Coca-Cola Vanilla">
+        <li class="main__item main__item_320pix">
+          <picture>
+            <source srcset="img/1img.mobile/drinkables/drinkables_coca-cola-vanilla.png" media="(max-width:320px)">
+            <img class="main__img" src="img/drinkables/drinkables_coca-cola-vanilla.png" alt="Coca-Cola Vanilla">
+          </picture>
 
+          <div class="main__container-desc">
             <h3 class="main__tittle3">Coca-Cola Vanilla</h3>
 
             <p class="main__desc">0,5 л</p>
 
             <div class="main__item_container">
               <span class="main__price">159 ₽</span>
-
               <button class="main__btn" type="button">В корзину</button>
             </div>
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__container-hight">
-        <div class="footer__container-menu">
-          <ul class="footer__list-menu footer__menu_margin-right">
-            <li class="footer__item-tittle">Додо Пицца</li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">О нас</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Додо-книга</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Блог «Сила ума»</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link"></a></li>
-          </ul>
-
-          <ul class="footer__list-menu footer__menu_margin-right">
-            <li class="footer__item_margin footer__item-tittle">Работа</li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">В пиццерии</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">В контакт-центре</a></li>
-          </ul>
-
-          <ul class="footer__list-menu footer__menu_margin-right">
-            <li class="footer__item_margin footer__item-tittle">Партнёрам</li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Франшиза</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Инвестиции</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Поставщикам</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Предложить помещение</a></li>
-          </ul>
-
-          <ul class="footer__list-menu footer__menu_margin-right">
-            <li class="footer__item_margin footer__item-tittle">Это интересно</li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Экскурсии и мастер-классы</a></li>
-            <li class="footer__item footer__item_margin"><a href="#" class="footer__link">Корпоративные заазы</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__container-address">
-          <div class="footer__container-link">
-            <a href="#" class="footer__link-right footer__google-play"></a> 
-
-            <a href="#" class="footer__link-right footer__app-store"></a>
           </div>
-          
-          <div class="footer__container-connection"></div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container-hight container">
+      <div class="footer__container-menu">
+        <ul class="footer__list-menu">
+          <li class="footer__item-tittle">Додо Пицца</li>
+          <li class="footer__item"><a href="#" class="footer__link">О нас</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Додо-книга</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Блог «Сила ума»</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Додо ИС</a></li>
+        </ul>
+
+        <ul class="footer__list-menu">
+          <li class="footer__item_margin footer__item-tittle">Работа</li>
+          <li class="footer__item"><a href="#" class="footer__link">В пиццерии</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">В контакт-центре</a></li>
+        </ul>
+
+        <ul class="footer__list-menu">
+          <li class="footer__item_margin footer__item-tittle">Партнёрам</li>
+          <li class="footer__item"><a href="#" class="footer__link">Франшиза</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Инвестиции</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Поставщикам</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Предложить помещение</a></li>
+        </ul>
+
+        <ul class="footer__list-menu">
+          <li class="footer__item_margin footer__item-tittle">Это интересно</li>
+          <li class="footer__item"><a href="#" class="footer__link">Экскурсии и мастер-классы</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Корпоративные заазы</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__hr-hight container">
+        <div class="footer__hr"></div>
+      </div>
+
+      <div class="footer__container-address">
+        <div class="footer__container-link">
+          <a href="#" class="footer__link-right footer__google-play"></a> 
+
+          <a href="#" class="footer__link-right footer__app-store"></a>
+        </div>
+        
+        <div class="footer__container-connection">
           <a href="tel:+88003020060" class="footer__link-tel">8-800-302-00-60</a>
 
           <p class="footer__text">Звонок бесплатный</p>
@@ -639,54 +760,62 @@
           <a href="mailto:feedback@dodopizza.com" class="footer__link-email">feedback@dodopizza.com</a>
         </div>
       </div>
-      
-      <div class="footer__container-middle">
-        <div class="footer__container-money">
-          <p class="footer__proceeds">1 396 362 874 ₽</p>
-          <p class="footer__desc">
-            Выручка российской сети в этом месяце. В прошлом — 2 460 305 416 ₽
-          </p>
-        </div>
-
-        <div class="footer__container-pizza">
-          <p class="footer__pizza-number">688 пиццерий</p>
-          <p class="footer__desc">
-            в 14 странах, включая Китай, США и Великобританию
-          </p>
-        </div>
+    </div>
+    
+    <div class="footer__container-middle container">
+      <div class="footer__container-money">
+        <p class="footer__proceeds">1 396 362 874 ₽</p>
+        <p class="footer__desc">
+          Выручка российской сети в этом месяце. В прошлом — 2 460 305 416 ₽
+        </p>
       </div>
 
-      <div class="footer__container-hr">
-        <div class="footer__hr"></div>
+      <div class="footer__container-pizza">
+        <p class="footer__pizza-number">688 пиццерий</p>
+        <p class="footer__desc">
+          в 14 странах, включая Китай, США и Великобританию
+        </p>
+      </div>
+    </div>
+
+    <div class="footer__container-hr container">
+      <div class="footer__hr"></div>
+    </div>
+
+    <div class="footer__container-bottom container">
+      <div class="footer__container-bottom-logo">
+        <img class="footer__logo" src="img/icons/footer-logo.svg" alt="Логотип">
+
+        <span class="footer__copyright">© 2021</span>
       </div>
 
-      <div class="footer__container-bottom">
-        <div class="footer__container-bottom-logo">
-          <img class="footer__logo" src="img/icons/footer-logo.svg" alt="Логотип">
+      <div class="footer__container-bottom-legal">
+        <ul class="footer__list-legal">
+          <li class="footer__item-legal footer__item-legal_margin">
+            <a href="#" class="footer__link-legal">Правовая информация</a>
+          </li>
 
-          <span class="footer__copyright">© 2021</span>
-        </div>
+          <li class="footer__item-legal footer__item-legal_margin">
+            <a href="#" class="footer__link-legal">Калорийность и состав</a>
+          </li>
 
-        <div class="footer__container-bottom-legal">
-          <ul class="footer__list-legal">
-            <li class="footer__item-legal footer__item-legal_margin">Правовая информация</li>
-            <li class="footer__item-legal footer__item-legal_margin">Калорийность и состав</li>
-            <li class="footer__item-legal footer__item-legal_margin">Помощь</li>
-          </ul>
-        </div>
-
-        <div class="footer__container-bottom-socials">
-          <ul class="footer__list-socials">
-            <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-facebook" href="#"></a></li>
-            <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-instagram" href="#"></a></li>
-            <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-classmates" href="#"></a></li>
-            <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-vk" href="#"></a></li>
-            <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-youtube" href="#"></a></li>
-          </ul>
-        </div>
+          <li class="footer__item-legal footer__item-legal_margin">
+            <a href="#" class="footer__link-legal">Помощь</a>
+          </li>
+        </ul>
       </div>
-    </footer>
-  </div>
+
+      <div class="footer__container-bottom-socials">
+        <ul class="footer__list-socials">
+          <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-facebook" href="#"></a></li>
+          <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-instagram" href="#"></a></li>
+          <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-classmates" href="#"></a></li>
+          <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-vk" href="#"></a></li>
+          <li class="footer__item-socials footer__item-socials_margin"><a class="footer__icon-youtube" href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
