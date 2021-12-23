@@ -59,10 +59,6 @@
         color: white;
       }
   
-  .footer__hr-hight {
-    display: none;
-  }
-
   .footer__container-address {
     display: flex;
     flex-direction: column;
@@ -70,7 +66,7 @@
 
     .footer__container-link {
       margin-bottom: 29px;
-      
+      gap: 0 5px;
       display: flex;
       flex-direction: row;
     }
@@ -126,7 +122,6 @@
       }
 
       .footer__link-email {
-        font-family: Nunito;
         font-size: 15px;
         line-height: 20px;
         text-align: right;
@@ -236,7 +231,7 @@
 
       .footer__item-legal {
         font-family: Nunito;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 22px;
         
         color: #C7C9CC;

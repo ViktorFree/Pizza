@@ -17,6 +17,10 @@ a:visited {
     text-decoration: none; 
 }
 
+a {
+	color: #000000;
+}
+
 main ul li a {
 	text-decoration: none;
 	color: inherit;

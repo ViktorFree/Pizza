@@ -19,8 +19,7 @@ main {
   margin-bottom: 40px;
 
   display: block;
-
-  font-family: Nunito;
+  
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
@@ -78,26 +77,24 @@ main {
 
     .new__item-container {
       padding-top: 29px;
-
       display: flex;
       flex-direction: column;
     }
 
       .new__item-caption {
         margin-bottom: 4px;
-
-        font-family: Nunito;
+        
         font-size: 14px;
         line-height: 19px;
         color: #000000;
       }
 
       .new__price {
-        font-family: Nunito;
         font-weight: 600;
         font-size: 16px;
         line-height: 22px;
       }
+
 
 .main__list {
   display: flex;
@@ -122,7 +119,7 @@ main {
 
     .main__img {
       margin-bottom: 5px;
-      align-self: center;
+      align-items: center;
 
       max-width: 100%;
       max-height: auto;
@@ -141,8 +138,7 @@ main {
       margin-bottom: 10px;
 
       display: block;
-
-      font-family: Nunito;
+      
       font-weight: 600;
       font-size: 20px;
 
@@ -151,14 +147,14 @@ main {
     }
 
       .main__container-desc {
+        min-width: 200px;
         display: flex;
         flex-direction: column;
       }
 
       .main__desc {
         margin-bottom: auto;
-
-        font-family: Nunito;
+        
         font-size: 14px;
 
         line-height: 19px;
@@ -166,10 +162,8 @@ main {
       }
 
         .main__price {
-          /* margin-right: 46px; */
           padding-top: 10px;
-
-          font-family: Nunito;
+          
           font-weight: 600;
           font-size: 16px;
           
@@ -180,7 +174,6 @@ main {
           min-width: 120px;
           max-height: 40px;
 
-          font-family: Nunito;
           font-weight: 600;
           font-size: 16px;
 
@@ -213,14 +206,14 @@ main {
           background-color: #ff6900;
         }
 
+
+
   .combo__btn {
     width: 120px;
     height: 40px;
-
-    font-family: Nunito;
+    
     font-weight: 600;
     font-size: 16px;
-
     line-height: 22px;
     text-align: center;
 
@@ -237,6 +230,8 @@ main {
     background-color: #f65a12;
   }
 
+
+  
   .main__btn_add-basket {
     display: flex;
     justify-content: space-between;
